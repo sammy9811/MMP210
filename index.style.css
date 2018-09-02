@@ -1,0 +1,43 @@
+BODY{background: url(ash-edmonds-510566-unsplash.jpg) 
+    no-repeat center center fixed;
+background-size: cover;}
+p { color: brown;
+    font-size: 55px;
+  font-family:cursive;
+  text-align: center;}
+h2 {color: aqua;
+    font-size: 50px;
+  font-family: monospace;
+  text-align: left;}
+h1 {font-size: 100px;
+    color: aqua;
+    text-align: center;
+    font-family: fantasy;}
+li {color:whitesmoke;
+    font-size: 25px;
+   text-align: left;}
+div,a {color: whitesmoke;
+   text-align: center;
+    font-size: 25px;}
+.sidenav {
+    height: 100%;
+    width: 160px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: dimgray;
+    display: block;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
